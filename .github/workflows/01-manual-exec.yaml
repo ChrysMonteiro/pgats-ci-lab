@@ -28,12 +28,12 @@ jobs:
           node-version: 22.x
 
       # instalação do Yarn
-      - name: Instalando Yarn
+      - name: Instalando yarn
         run: npm install -g yarn
 
       # instalação das dependências
       - name: Instalando dependências
-        run: Yarn
+        run: yarn
 
       # instalão do playwright
       - name: Instalando playwright
